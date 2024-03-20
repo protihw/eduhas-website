@@ -13,6 +13,11 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #ff5951;
 }
 
 body {
@@ -29,14 +34,46 @@ body {
     justify-content: space-between;
     background-color: #171717;
     color: white;
-    padding: 0.5rem 3.5rem;
+    padding: 1vh 4vw;
     font-size: 0.8rem;
 }
 
-#top_nav > ul, 
-#top_nav > div,
-#top_nav > div > ul {
+#top_nav>ul,
+#top_nav>div,
+#top_nav>div>ul:nth-child(1) {
     display: flex;
     gap: 1.25rem;
 }
- 
+
+#right-itens {
+    display: flex;
+    gap: 0;
+}
+
+#right-itens>li:nth-child(1)::after {
+    content: "|";
+    padding: 0 0.625rem;
+}
+
+#bottom_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 4vw;
+}
+
+#bottom_nav>div,
+#bottom_nav>div>ul{
+    display: flex;
+    gap: 2.5vw;
+}
+
+@media (max-width: 800px) {
+    #top_nav {
+        display: block;
+    }
+
+    #top_nav>* {
+        justify-content: center;
+    }
+}
