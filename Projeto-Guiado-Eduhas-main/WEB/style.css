@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #ff5951;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    color: #333;
+}
+
+#top_nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #171717;
+    color: white;
+    padding: 1vh 4vw;
+    font-size: 0.8rem;
+}
+
+#top_nav>ul,
+#top_nav>div,
+#top_nav>div>ul:nth-child(1) {
+    display: flex;
+    gap: 1.25rem;
+}
+
+#right-itens {
+    display: flex;
+    gap: 0;
+}
+
+#right-itens>li:nth-child(1)::after {
+    content: "|";
+    padding: 0 0.625rem;
+}
+
+#bottom_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 4vw;
+}
+
+#bottom_nav>div,
+#bottom_nav>div>ul {
+    display: flex;
+    gap: 2.5vw;
+}
+
+#basket {
+    position: relative;
+    display: inline-block;
+}
+
+#basket>span {
+    line-height: normal;
+    position: absolute;
+    top: -.5vh;
+    left: .5vw;
+    font-size: 0.7rem;
+    color: white;
+    background-color: red;
+    padding: 0 .3rem;
+    border-radius: 50%;
+}
+
+#bars {
+    display: none;
+    color: red;
+    font-size: 1.2rem;
+}
+
+#main_menu>li:nth-child(1) {
+    position: relative;
+    display: inline-block;
+}
+
+#main_menu>li:nth-child(1)>ul {
+    position: absolute;
+    display: none;
+    width: max-content;
+    padding: 1vh 1vw;
+    background-color: white;
+}
+
+#main_menu>li:nth-child(1):hover > ul{
+    display: block;
+}
+
+@media (max-width: 800px) {
+    #top_nav {
+        display: block;
+    }
+
+    #top_nav>* {
+        justify-content: center;
+    }
+
+    #bottom_nav>div>ul:nth-child(1) {
+        display: none;
+    }
+
+    #bars {
+        display: block;
+    }
+}
