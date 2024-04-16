@@ -220,6 +220,50 @@ body {
     gap: 2vw;
 }
 
+#course_categories>div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 11rem;
+    height: 10.96rem;
+}
+
+#ourse_categories i {
+    font-size: 3rem;
+}
+
+#ourse_categories>div>div:hover i{
+    font-size: 3.5rem;
+}
+
+#course_categories>div>div:nth-child(1) {
+    background-color: #10c45c;
+}
+
+#course_categories>div>div:nth-child(2) {
+    background-color: #fdc735;
+}
+
+#course_categories>div>div:nth-child(3) {
+    background-color: #307ad5;
+}
+
+#course_categories>div>div:nth-child(4) {
+    background-color: #e948ae;
+}
+
+#course_categories>div>div:nth-child(5) {
+    background-color: #48a7d4;
+}
+
+#course_categories>div>div:nth-child(6) {
+    background-color: #6fc191;
+}
+
 @media (max-width: 800px) {
     #top_nav {
         display: block;
