@@ -140,8 +140,8 @@ body {
     transition: .5s;
 }
 
-#main_top_content>a:hover{
-   background-color: black;
+#main_top_content>a:hover {
+    background-color: black;
 }
 
 #prev_button,
@@ -188,7 +188,7 @@ body {
     text-align: center;
 }
 
-#course_categories>h2{
+#course_categories>h2 {
     margin-top: 6rem;
     font-size: 1.5rem;
     font-weight: 500;
@@ -226,18 +226,19 @@ body {
     align-items: center;
     justify-content: space-around;
     color: white;
-    padding: 1rem;
+    padding: 2rem 1rem;
     border-radius: 5px;
     width: 11rem;
-    height: 10.96rem;
+    height: 12rem;
 }
 
-#ourse_categories i {
+#course_categories i {
     font-size: 3rem;
+    transition: .3s;
 }
 
-#ourse_categories>div>div:hover i{
-    font-size: 3.5rem;
+#course_categories>div>div:hover i {
+    scale: 1.2;
 }
 
 #course_categories>div>div:nth-child(1) {
@@ -262,6 +263,73 @@ body {
 
 #course_categories>div>div:nth-child(6) {
     background-color: #6fc191;
+}
+
+#course_categories>a {
+    display: block;
+    background-color: #ff5951;
+    padding: 1rem 3rem;
+    width: max-content;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    margin: 0 auto;
+    filter: drop-shadow(10px 10px 10px #ff5951);
+}
+
+#course_categories>a:hover {
+    background-color: black;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+#bottom_footer {
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#bottom_footer a {
+    color: #ff5951;
+}
+
+#bottom_footer a:hover {
+    color: #fac8c6;
+}
+
+#top_footer {
+    display: flex;
+    margin-top: 3vh;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 15vh 10vw;
+    gap: 2vw;
+}
+
+#top_footer>div:nth-child(1)>ul {
+    display: flex;
+    gap: 1vw;
+}
+
+#top_footer>div:nth-child(1)>ul>li {
+    border-radius: 50%;
+    border: 1px solid #ff5951;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    color: #ff5951;
+}
+
+#top_footer>div:nth-child(1)>ul>li:hover {
+    background-color: #ff5951;
+    color: white;
+}
+
+#top_footer>div:nth-child(-n + 3) {
+    border-right: 1px solid #2f2f2f;
 }
 
 @media (max-width: 800px) {
