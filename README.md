@@ -1,4 +1,4 @@
-![image](https://github.com/protihw/eduhas-website/assets/69305991/e73ac870-9fb5-422a-9e74-3d44360c9563)# Eduhas Website
+Eduhas Website
 
 O website foi desenvolvido em conjunto com o professor de Construção de Softwares para Web com o intuito de aprender novos conceitos e boas práticas.
 
@@ -22,6 +22,7 @@ Passos para instalar e configurar o ambiente de desenvolvimento:
 
 ## Imagens
 ![image](https://github.com/protihw/eduhas-website/assets/69305991/f3e399ef-cdb6-4a68-9f16-6a276429c2de)
+![image](https://github.com/protihw/eduhas-website/assets/69305991/48b2e9e9-7015-4076-9e1c-2581420ec77d)
 
 ## Contato
 
