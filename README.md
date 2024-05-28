@@ -5,7 +5,7 @@ O website foi desenvolvido em conjunto com o professor de Construção de Softwa
 ## Índice
 
 - [Instalação](#instalação)
-- [Imagens](#uso)
+- [Imagens](#imagens)
 - [Contato](#contato)
 
 ## Instalação
@@ -21,6 +21,7 @@ Passos para instalar e configurar o ambiente de desenvolvimento:
 3. Dê um duplo clique no arquivo index.html para abri-lo no navegador padrão.
 
 ## Imagens
+
 ![image](https://github.com/protihw/eduhas-website/assets/69305991/f3e399ef-cdb6-4a68-9f16-6a276429c2de)
 ![image](https://github.com/protihw/eduhas-website/assets/69305991/48b2e9e9-7015-4076-9e1c-2581420ec77d)
 
